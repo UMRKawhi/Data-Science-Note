@@ -20,5 +20,11 @@
    names(some_vector) <- c("Name", "Profession")
    ```
 
-   
+3. 计算vector中的数值类型元素之和
+
+   ```R
+   # 用c()函数创建一个向量数据类型
+   poker_vector <- c(140, -50, 20, -120, 240)
+   total_poker <- sum(poker_vector)
+   ```
 
