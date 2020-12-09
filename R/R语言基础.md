@@ -28,3 +28,18 @@
    total_poker <- sum(poker_vector)
    ```
 
+4. 通过索引选择R语言的特定位置的元素
+
+   ```R
+   poker_vector <- c(140, -50, 20, -120, 240)
+   
+   # 选择第一个元素是从1开始，而不是从0开始
+   first_element = poker_vector[1]
+   
+   # 指定选择第2至第4个元素，并命名为poker_midweek
+   poker_midweek = poker_vector[c(2,3,4)]
+   
+   # 上面一种方法
+   ```
+
+   
